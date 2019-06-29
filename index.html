@@ -2,124 +2,234 @@
 <html lang="fr">
 
 <head>
-    <title>Moe's Steakhouse</title>
+    <title>iNVITATION AU VOYAGE</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Bevan|Bungee|Bungee+Inline|Changa+One|Coda|Copse|Lora:700|Monoton|Oswald|Share&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bevan|Bungee|Bungee+Inline|Changa+One|Coda|Copse|Lora:700|Monoton|Oswald|Neucha|Reenie+Beanie|Rock+Salt|Share&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-dark fixed-top ">
+        <a class="navbar-brand" href="#"><img onclick="nextVideo();" src="img/logo-voyage.svg" alt="Une invitation au voyage"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon" id="haut"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav text-right">
+                <li class="nav-item">
+                    <span class="btn"><a class="nav-link"  href="#ancre-galerie">Carnets de voyage</a></span>
+                </li>
+                <li class="nav-item">
+                    <span class="btn"><a class="nav-link"   href="#ancre-temoignages" >Témoignages</a></span>
+                </li>
+                <li class="nav-item">
+                    <span class="btn"><a class="nav-link" href="#">CONTACT</a></span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-12 video-container" id="video1">
+                <div class="dim-video">
+                    <video id="monPlayer" autoplay="" loop="" muted="">
+                    <source src="video/video3.mp4" type="video/mp4">
+                 </video>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" bordure">
+                <img class="" src="img/bordure-video.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 femme1-container">
+                <a href="#video1"><img class="img-fluid" src="img/femme1.png"></a>
+            </div>
+            <div class="slogan1">
+                <P>LE MONDE </BR> VU</BR> AUTRE-</BR> MENT </P>
+            </div>
+            <div class="col-sm-4 fleches">
+                <div class="col-sm-2  flecheH">
+                </div>
+                <div class="col-sm-2 flecheB">
+                    <a href="#ancre-galerie"><img src="img/fleche1.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container galerie"></section>
+    <section class="blog-post-teasers">
+        <article class="blog-post-teaser"><span id="ancre-galerie"></span>
+            <div class="carnets-titre">
+                <P> CARNETS </BR> DE</BR> VOYAGE</P>
+            </div>
+        </article>
+        <article class="blog-post-teaser"></article>
+        <div class="row txt-carnets">
+            <p> Découvrez les destinations vécues par nos voyageurs, leurs découvertes, leurs endroits préférérés... </p>
+        </div>
+        </article>
+        <article class="blog-post-teaser">
+            <figure>
+                <img src="img/grid-carnets/canada.png" alt="">
+                <figcaption>
+                    <h1><a>Canada</a></h1>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="blog-post-teaser">
+            <figure>
+                <img src="img/grid-carnets/lisbonne.png" alt="">
+                <figcaption>
+                    <h1><a>Portugal</a></h1>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="blog-post-teaser">
+            <figure>
+                <img src="img/grid-carnets/chinepng.png" alt="">
+                <figcaption>
+                    <h1><a>Chine</a></h1>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="blog-post-teaser">
+            <figure>
+                <img src="img/grid-carnets/thailande.jpg" alt="">
+                <figcaption>
+                    <h1><a>Thailande</a></h1>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="blog-post-teaser">
+            <figure>
+                <img src="img/grid-carnets/malte.png" alt="">
+                <figcaption>
+                    <h1><a>Ile de Malte</a></h1>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="blog-post-teaser">
+            <figure>
+                <img src="img/grid-carnets/australie.png" alt="">
+                <figcaption>
+                    <h1><a>Australie</a></h1>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="blog-post-teaser">
+            <figure>
+                <img src="img/grid-carnets/japonpng.png" alt="">
+                <figcaption>
+                    <h1><a>Japon</a></h1>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="blog-post-teaser">
+            <figure>
+                <img src="img/grid-carnets/maroc.png" alt="">
+                <figcaption>
+                    <h1><a>Maroc</a></h1>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="blog-post-teaser">
+            <figure>
+                <img src="img/grid-carnets/dublin.png" alt="">
+                <figcaption>
+                    <h1><a>Irlande</a></h1>
+                </figcaption>
+            </figure>
+        </article>
+        <article class="blog-post-teaser">
+            <figure>
+                <img src="img/grid-carnets/venise.png" alt="">
+                <figcaption>
+                    <h1><a>Venise</a></h1>
+                </figcaption>
+            </figure>
+        </article>
+    </section>
+
+    </section>
+    <section class="container-fluid ">
+        <div class="col-sm-4 homme1-container">
+            <img src="img/femme-velo.png"> </div>
+        <div class="col-sm-4 offset-6 temoignages-titre">
+            <P>TEMOI- </BR>GNA- </BR>GES </P><span id="ancre-temoignages"></span>
+        </div>
+        <div class="txt-temoignages">
+            <p> Découvrez les destinations vécues par nos voyageurs, leurs découvertes, leurs endroits préférérés... </p>
+        </div>
+    </section>
+    <section class="container temoignages-container">
+        <div class="row">
+            <div class="card-deck">
+                <div class=" card ">
+                    <div><img src="img/profil1.png " alt="John " style="width:100% "></div>
+                    <div>
+                        <h4>Noémie</h4>
+                        <h5>Son séjour à Lisbonne</h5>
+                        <p>« Un très beau voyage, très troublant : un pays coloré, contrasté, de notre époque par certains aspects et pour beaucoup d'autres, un pays d'il y a 50 ans !!! Et terriblement attachant. » </p>
+                    </div>
+                    <div class="icones">
+                        <a href="# "><img src="img/twitter.png"></a>
+                        <a href="# "><img src="img/instagram.png"></a>
+                        <a href="# "><img src="img/pinterest.png"></a>
+                        <a href="# "><img src="img/facebook.png"></a>
+                        <a href="# "><img src="img/chat.png"></a>
+                    </div>
+                </div>
+
+                <div class=" card ">
+                    <div><img src="img/profil2.png " alt="John " style="width:100% "></div>
+                    <div>
+                        <h4>Pierre</h4>
+                        <h5>Son séjour au canada</h5>
+                        <p>« Un très beau voyage, très troublant : un pays coloré, contrasté, de notre époque par certains aspects et pour beaucoup d'autres, un pays d'il y a 50 ans !!! Et terriblement attachant. » </p>
+                    </div>
+                    <div>
+                        <a href="# "> <img src="img/twitter.png"></a>
+                        <a href="# "><img src="img/instagram.png"></a>
+                        <a href="# "><img src="img/pinterest.png"></a>
+                        <a href="# "><img src="img/facebook.png"></a>
+                        <a href="# "><img src="img/chat.png"></a>
+                    </div>
+                </div>
+                <div class=" card ">
+                    <div><img src="img/profil3.png " alt="John " style="width:100% "></div>
+                    <div>
+                        <h4>Claire</h4>
+                        <h5>Son séjour à Malte</h5>
+                        <p>« Un très beau voyage, très troublant : un pays coloré, contrasté, de notre époque par certains aspects et pour beaucoup d'autres, un pays d'il y a 50 ans !!! Et terriblement attachant. » </p>
+                    </div>
+                    <div>
+                        <a href="# "> <img src="img/twitter.png"></a>
+                        <a href="# "><img src="img/instagram.png"></a>
+                        <a href="# "><img src="img/pinterest.png"></a>
+                        <a href="# "><img src="img/facebook.png"></a>
+                        <a href="# "><img src="img/chat.png"></a>
+                    </div>
+                </div>
+            </div>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
 
-</head>
-
-<body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
-        <a class="navbar-brand" href="#">Invit-</br>Ation<p>au voyage</p>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link scroll" href="#bas">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container-fluid">
-        <div class="col-sm-12">
-            <div id="demo" class="carousel slide">
-
-                <!-- Indicators -->
-                <ul class="carousel-indicators">
-                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                    <li data-target="#demo" data-slide-to="1"></li>
-                    <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
-
-                <!-- The slideshow -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-
-                        <img src="img/beach2.png" alt="Los Angeles">
-                        <div class="femme1"><img class="center-block" src="img/femme1.png"></div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/pano2.png" alt="Chicago">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/pano3.png" alt="New York">
-                    </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                    <span class="carousel-control-next-icon"></span></a>
-
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Dec 7, 2017</h5>
-                <div class="fakeimg">Fake Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <br>
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg">Fake Image</div>
-                <p>Some text..</p>
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg">Fake Image</div>
-            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-            <h3>Some Links</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
-            <ul class="nav nav-pills flex-column">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-            <hr class="d-sm-none">
-        </div>
-
-    </div>
-    </div>
-    </div>
-
-    <div class="jumbotron text-center" style="margin-bottom:0" id="bas">
-        <p>Footer</p>
-    </div>
 
 </body>
+
+
 
 </html>

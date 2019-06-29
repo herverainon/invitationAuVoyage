@@ -1,0 +1,8 @@
+Apply .visible or .invisible as needed. Copy <div class="visible">...</div><div class="invisible">...</div>Copy // Class
+.visible {
+    visibility: visible !important;
+}
+
+.invisible {
+    visibility: hidden !important;
+}

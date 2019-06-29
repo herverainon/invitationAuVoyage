@@ -11,7 +11,7 @@ let videos = [
 
 function setMp4Source01() {
     var currentVideoIndex = Math.floor(Math.random() * videos.length);
-    var currentVideo = "../video/" + videos[currentVideoIndex] + ".mp4";
+    var currentVideo = "video/" + videos[currentVideoIndex] + ".mp4";
     player1.src = currentVideo;
     player1.load();
     player1.play();

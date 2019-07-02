@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm  navbar-dark fixed-top ">
-        <a class="navbar-brand" href="#"><img onclick="nextVideo();" src="img/logo-voyage.svg" alt="Une invitation au voyage"></a>
+    <nav class="navbar navbar-expand-sm  navbar-dark bg-info fixed-top ">
+        <a class="navbar-brand" href="#"><img onclick="nextVideo();" src="img/logo-voyage.png" alt="Une invitation au voyage"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon" id="haut"></span>
@@ -30,7 +30,7 @@
                     <span class="btn"><a class="nav-link"   href="#ancre-temoignages" >Témoignages</a></span>
                 </li>
                 <li class="nav-item">
-                    <span class="btn"><a class="nav-link" href="#">CONTACT</a></span>
+                    <span class="btn"><a class="nav-link" href="#contact">Contact</a></span>
                 </li>
             </ul>
         </div>
@@ -57,175 +57,280 @@
             <div class="slogan1">
                 <P>LE MONDE </BR> VU</BR> AUTRE-</BR> MENT </P>
             </div>
-            <div class="col-sm-4 fleches">
-                <div class="col-sm-2  flecheH">
-                </div>
-                <div class="col-sm-2 flecheB">
-                    <a href="#ancre-galerie"><img src="img/fleche1.png"></a>
-                </div>
-            </div>
         </div>
     </section>
-    <section class="container galerie"></section>
-    <section class="blog-post-teasers">
-        <article class="blog-post-teaser"><span id="ancre-galerie"></span>
-            <div class="carnets-titre">
-                <P> CARNETS </BR> DE</BR> VOYAGE</P>
-            </div>
-        </article>
-        <article class="blog-post-teaser"></article>
-        <div class="row txt-carnets">
-            <p> Découvrez les destinations vécues par nos voyageurs, leurs découvertes, leurs endroits préférérés... </p>
-        </div>
-        </article>
-        <article class="blog-post-teaser">
-            <figure>
-                <img src="img/grid-carnets/canada.png" alt="">
-                <figcaption>
-                    <h1><a>Canada</a></h1>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="blog-post-teaser">
-            <figure>
-                <img src="img/grid-carnets/lisbonne.png" alt="">
-                <figcaption>
-                    <h1><a>Portugal</a></h1>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="blog-post-teaser">
-            <figure>
-                <img src="img/grid-carnets/chinepng.png" alt="">
-                <figcaption>
-                    <h1><a>Chine</a></h1>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="blog-post-teaser">
-            <figure>
-                <img src="img/grid-carnets/thailande.jpg" alt="">
-                <figcaption>
-                    <h1><a>Thailande</a></h1>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="blog-post-teaser">
-            <figure>
-                <img src="img/grid-carnets/malte.png" alt="">
-                <figcaption>
-                    <h1><a>Ile de Malte</a></h1>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="blog-post-teaser">
-            <figure>
-                <img src="img/grid-carnets/australie.png" alt="">
-                <figcaption>
-                    <h1><a>Australie</a></h1>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="blog-post-teaser">
-            <figure>
-                <img src="img/grid-carnets/japonpng.png" alt="">
-                <figcaption>
-                    <h1><a>Japon</a></h1>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="blog-post-teaser">
-            <figure>
-                <img src="img/grid-carnets/maroc.png" alt="">
-                <figcaption>
-                    <h1><a>Maroc</a></h1>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="blog-post-teaser">
-            <figure>
-                <img src="img/grid-carnets/dublin.png" alt="">
-                <figcaption>
-                    <h1><a>Irlande</a></h1>
-                </figcaption>
-            </figure>
-        </article>
-        <article class="blog-post-teaser">
-            <figure>
-                <img src="img/grid-carnets/venise.png" alt="">
-                <figcaption>
-                    <h1><a>Venise</a></h1>
-                </figcaption>
-            </figure>
-        </article>
-    </section>
+    <section class="container news">
+        <div class="row">
+            <div class="col-sm-12 decouvrir-btn"><button class="btn btn-primary"><a href="temoignages.html">Découvrez la dernière destination</a></button></div>
+            <div class="col-sm-12 img-new">
+                <img class="img-fluid" src="img/fd-temoignages1.png">
 
+
+            </div>
+    </section>
+    <section class="container galerie">
+        <div class="col-sm-12 paddle-container">
+            <img class="img-fluid" src="img/couple.png">
+        </div>
+        <section class="blog-post-teasers">
+            <div class="col-sm-12 watercolor1-container">
+                <img class="img-fluid" src="img/watercolor1.jpg">
+            </div>
+            <article class="blog-post-teaser"><span id="ancre-galerie"></span>
+                <div class="carnets-titre">
+                    <P> CARNETS </BR> DE</BR> VOYAGE</P>
+                </div>
+
+            </article>
+            <article class="blog-post-teaser"></article>
+            <div class="row txt-carnets">
+                <p> Découvrez les destinations vécues par nos voyageurs, leurs découvertes, leurs endroits préférérés... </p>
+            </div>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <a href="temoignages.html">
+                        <img src="img/grid-carnets/montreal.png" alt="">
+                        <figcaption>
+                            <h1>Montréal</h1>
+                        </figcaption>
+                    </a>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/lisbonne.png" alt="">
+                    <figcaption>
+                        <h1><a>Portugal</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/chinepng.png" alt="">
+                    <figcaption>
+                        <h1><a>Chine</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/thailande.jpg" alt="">
+                    <figcaption>
+                        <h1><a>Thailande</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/malte.png" alt="">
+                    <figcaption>
+                        <h1><a>Ile de Malte</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/australie.png" alt="">
+                    <figcaption>
+                        <h1><a>Australie</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/japonpng.png" alt="">
+                    <figcaption>
+                        <h1><a>Japon</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/maroc.png" alt="">
+                    <figcaption>
+                        <h1><a>Maroc</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/dublin.png" alt="">
+                    <figcaption>
+                        <h1><a>Irlande</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/venise.png" alt="">
+                    <figcaption>
+                        <h1><a>Venise</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/istamboul.png" alt="">
+                    <figcaption>
+                        <h1><a>Istanbul</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/grece.png" alt="">
+                    <figcaption>
+                        <h1><a>grèce</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/canada.png" alt="">
+                    <figcaption>
+                        <h1><a>Canada</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/newyork.png" alt="">
+                    <figcaption>
+                        <h1><a>New York</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="blog-post-teaser">
+                <figure>
+                    <img src="img/grid-carnets/helsinki.png" alt="">
+                    <figcaption>
+                        <h1><a>Helsinki</a></h1>
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
     </section>
     <section class="container-fluid ">
-        <div class="col-sm-4 homme1-container">
-            <img src="img/femme-velo.png"> </div>
+        <div class="col-sm-4 homme1-container  ">
+            <img class="famille" src="img/voyage-famille.png"> </div>
         <div class="col-sm-4 offset-6 temoignages-titre">
             <P>TEMOI- </BR>GNA- </BR>GES </P><span id="ancre-temoignages"></span>
         </div>
-        <div class="txt-temoignages">
+        <div class="col-sm-12 watercolor2-container">
+            <img class="img-fluid" src="img/watercolor2.jpg">
+        </div>
+        <div class="col-sm-6 txt-temoignages pt-5">
             <p> Découvrez les destinations vécues par nos voyageurs, leurs découvertes, leurs endroits préférérés... </p>
         </div>
     </section>
     <section class="container temoignages-container">
         <div class="row">
             <div class="card-deck">
-                <div class=" card ">
-                    <div><img src="img/profil1.png " alt="John " style="width:100% "></div>
-                    <div>
-                        <h4>Noémie</h4>
-                        <h5>Son séjour à Lisbonne</h5>
-                        <p>« Un très beau voyage, très troublant : un pays coloré, contrasté, de notre époque par certains aspects et pour beaucoup d'autres, un pays d'il y a 50 ans !!! Et terriblement attachant. » </p>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/img/grid-carnets/T1.png" alt="Card image cap ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Pierre</h5>
+                        <p class="card-text ">Passionné de cuisine, j'adore dénicher de bonnes adresses pour manger dans les pays que je visite</p>
                     </div>
-                    <div class="icones">
-                        <a href="# "><img src="img/twitter.png"></a>
-                        <a href="# "><img src="img/instagram.png"></a>
-                        <a href="# "><img src="img/pinterest.png"></a>
-                        <a href="# "><img src="img/facebook.png"></a>
-                        <a href="# "><img src="img/chat.png"></a>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item ">Vit à Paris</li>
+                        <li class="list-group-item ">Adore le sud de l'europe</li>
+                        <li class="list-group-item ">Aime la cuisine et le cinéma </li>
+                    </ul>
+                    <div class="card-body ">
+                        <h5 class="card-title ">Dernier séjour : Lisbonne</h5>
+                        <p class="card-text ">« Un très beau voyage, très troublant : un pays coloré, contrasté, de notre époque par certains aspects et pour beaucoup d'autres, un pays d'il y a 50 ans !!! Et terriblement attachant. »</p>
+                    </div>
+                    <div class="card-body ">
+                        <a href="temoignages.html" class="card-link ">En savoir plus...</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/img/grid-carnets/T2.png" alt="Card image cap ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Pierre</h5>
+                        <p class="card-text ">Passionné de cuisine, j'adore dénicher de bonnes adresses pour manger dans les pays que je visite</p>
+                    </div>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item ">Vit à Paris</li>
+                        <li class="list-group-item ">Adore le sud de l'europe</li>
+                        <li class="list-group-item ">Aime la cuisine et le cinéma </li>
+                    </ul>
+                    <div class="card-body ">
+                        <h5 class="card-title ">Dernier séjour : Lisbonne</h5>
+                        <p class="card-text ">« Un très beau voyage, très troublant : un pays coloré, contrasté, de notre époque par certains aspects et pour beaucoup d'autres, un pays d'il y a 50 ans !!! Et terriblement attachant. »</p>
+                    </div>
+                    <div class="card-body ">
+                        <a href="# " class="card-link ">En savoir plus...</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/img/grid-carnets/T3.png" alt="Card image cap ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Pierre</h5>
+                        <p class="card-text ">Passionné de cuisine, j'adore dénicher de bonnes adresses pour manger dans les pays que je visite</p>
+                    </div>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item ">Vit à Paris</li>
+                        <li class="list-group-item ">Adore le sud de l'europe</li>
+                        <li class="list-group-item ">Aime la cuisine et le cinéma </li>
+                    </ul>
+                    <div class="card-body ">
+                        <h5 class="card-title ">Dernier séjour : Lisbonne</h5>
+                        <p class="card-text ">« Un très beau voyage, très troublant : un pays coloré, contrasté, de notre époque par certains aspects et pour beaucoup d'autres, un pays d'il y a 50 ans !!! Et terriblement attachant. »</p>
+                    </div>
+                    <div class="card-body ">
+                        <a href="# " class="card-link ">En savoir plus...</a>
                     </div>
                 </div>
 
-                <div class=" card ">
-                    <div><img src="img/profil2.png " alt="John " style="width:100% "></div>
-                    <div>
-                        <h4>Pierre</h4>
-                        <h5>Son séjour au canada</h5>
-                        <p>« Un très beau voyage, très troublant : un pays coloré, contrasté, de notre époque par certains aspects et pour beaucoup d'autres, un pays d'il y a 50 ans !!! Et terriblement attachant. » </p>
-                    </div>
-                    <div>
-                        <a href="# "> <img src="img/twitter.png"></a>
-                        <a href="# "><img src="img/instagram.png"></a>
-                        <a href="# "><img src="img/pinterest.png"></a>
-                        <a href="# "><img src="img/facebook.png"></a>
-                        <a href="# "><img src="img/chat.png"></a>
-                    </div>
-                </div>
-                <div class=" card ">
-                    <div><img src="img/profil3.png " alt="John " style="width:100% "></div>
-                    <div>
-                        <h4>Claire</h4>
-                        <h5>Son séjour à Malte</h5>
-                        <p>« Un très beau voyage, très troublant : un pays coloré, contrasté, de notre époque par certains aspects et pour beaucoup d'autres, un pays d'il y a 50 ans !!! Et terriblement attachant. » </p>
-                    </div>
-                    <div>
-                        <a href="# "> <img src="img/twitter.png"></a>
-                        <a href="# "><img src="img/instagram.png"></a>
-                        <a href="# "><img src="img/pinterest.png"></a>
-                        <a href="# "><img src="img/facebook.png"></a>
-                        <a href="# "><img src="img/chat.png"></a>
-                    </div>
+            </div>
+    </section>
+    <section class="formulaire">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <div class="container">
+                    <h4>Contactez-nous</h4>
+                    <span id="contact"></span>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="email">Nom:</label>
+                            <input type="email" class="form-control" id="nom" placeholder="Entrez votre nom" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Prénom:</label>
+                            <input type="nom" class="form-control" id="prenom" placeholder="Entrez votre prénom" name="pswd">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Entrez votre email" name="pswd">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Votre message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
                 </div>
             </div>
     </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="js/index.js"></script>
+    <section class="container-fluid text-right bas">
+        <a href="#">⬆</a>
+    </section>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; Une idée du Voyage - </small>
+
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "></script>
+    <script src="js/index.js "></script>
 
 
 </body>

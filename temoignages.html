@@ -15,56 +15,128 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm  navbar-dark fixed-top ">
-        <a class="navbar-brand" href="index.html"><img onclick="nextVideo();" src="img/logo-voyage.svg" alt="Une invitation au voyage"></a>
+    <nav class="navbar navbar-expand-sm  navbar-dark bg-info fixed-top ">
+        <a class="navbar-brand" href="index.html"><img onclick="nextVideo();" src="img/logo-voyage.png" alt="Une invitation au voyage"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon" id="haut"></span>
-        </button>
+                  <span class="navbar-toggler-icon" id="haut"></span>
+                </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav text-right">
                 <li class="nav-item">
-                    <span class="btn"><a class="nav-link scroll" href="#ancre-galerie">Carnets de voyage</a></span>
+                    <span class="btn"><a class="nav-link"  href="index.html#ancre-galerie">Carnets de voyage</a></span>
                 </li>
                 <li class="nav-item">
-                    <span class="btn"><a class="nav-link" href="#ancre-temoignages">Témoignages</a></span>
+                    <span class="btn"><a class="nav-link"   href="index.html#ancre-temoignages" >Témoignages</a></span>
                 </li>
                 <li class="nav-item">
-                    <span class="btn"><a class="nav-link" href="#">CONTACT</a></span>
+                    <span class="btn"><a class="nav-link" href="index.html#contact">Contact</a></span>
                 </li>
             </ul>
         </div>
     </nav>
-    <section class=" book">
-        <div class="container-fluid home">
+    <section class="container-fluid book">
+        <div class="home">
             <div class="row">
-                <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, a saepe. Necessitatibus quia illo minima ratione deserunt possimus odio! Cum et repellat amet eius sed animi dicta ipsa reiciendis iusto!
+                <div class="card temoin" style="width: 18rem;">
+                    <img class="card-img-top" src="/img/grid-carnets/T1.png" alt="Card image cap ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">Pierre</h5>
+                        <p class="card-text ">Passionné de cuisine, j'adore dénicher de bonnes adresses pour manger dans les pays que je visite</p>
+                    </div>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item ">Vit à Paris</li>
+                        <li class="list-group-item ">Adore le sud de l'europe</li>
+                        <li class="list-group-item ">Aime la cuisine et le cinéma </li>
+                    </ul>
+                    <div class="card-body ">
+                        <h5 class="card-title ">Mon séjour à Montréal</h5>
+                        <p class="card-text ">« Un très beau voyage, très troublant : un pays coloré, contrasté, de notre époque par certains aspects et pour beaucoup d'autres, un pays d'il y a 50 ans !!! Et terriblement attachant. »</p>
+                    </div>
+                    <div class="card-body ">
+                        <a href="# " class="card-link ">Contacter Pierre</a>
+                    </div>
+                </div>
+                <div class="col-sm-8 fichetech">
+                    <h3>Montroyal, mon quartier préféré de Montréal</h3>
+                    <p> Le plateau Mont Royal est le quartier le plus connu de Montréal, il est aussi le quartier d’adoption des français expatriés au Québec. Le plateau est, à mon sens, un musée à ciel ouvert entre architecture, street art, parcs, ruelles
+                        vertes… J’aime me balader, me perdre dans les rues et ruelles du quartier, je vous propose de découvrir le plateau des maudits français !</p>
+                    <div class=row>
+                        <div class="col-sm-6 ">
+                            <h4>Ce que j'ai adoré</h4>
+                            <ul>
+                                <li>Le quartier Montroyal et le vieux port</li>
+                                <li>Les musées d'art moderne et contemporains</li>
+                                <li>Les galeries et centres culturels</li>
+                                <li>les petits cafés</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <h4>Quelques liens sympas</h4>
+                            <ul>
+                                <li><a href="https://www.mbam.qc.ca/">Musée des beaux-art de Montréal</a>
+                                </li>
+                                <li><a href="https://voyage-montreal.com/plateau-mont-royal" target="_blank">Quartier Monroyal</a></li>
+                                <li><a href="https://redcanoebrands.com" target="_blank">Une marque de vêtement vintage canadien</li>
+                                <li><a href="https://www.kanuk.com" target="_blank">La véritable dodoune québecoise</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/montreal/2.png" width="500px" height="232px" alt="Los Angeles">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/montreal/4.png" width="500px" height="232px" alt="Chicago">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/montreal/1.png" width="500px" height="232px" alt="New York">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22362.746120714397!2d-73.60329557554523!3d45.52329746249269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91bd192d52ab1%3A0xdf672d1ee5eca55c!2sLe+Plateau-Mont-Royal%2C+Montr%C3%A9al%2C+QC%2C+Canada!5e0!3m2!1sfr!2sfr!4v1561981205192!5m2!1sfr!2sfr"
+                    width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <section class="container-fluid text-right bas">
+                <a href="#">⬆</a>
+            </section>
+            <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+                <div class="container text-center">
+                    <small>Copyright &copy; Une idée du Voyage - </small>
 
                 </div>
-                <div class class="col-sm-8">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            </footer>
     </section>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
+
 </body>
 
 </html>

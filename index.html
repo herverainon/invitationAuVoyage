@@ -9,15 +9,11 @@
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Bevan|Bungee|Bungee+Inline|Changa+One|Coda|Copse|Lora:700|Monoton|Oswald|Neucha|Reenie+Beanie|Rock+Salt|Share&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-
-
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm  navbar-dark bg-info fixed-top ">
         <a class="navbar-brand" href="#"><img onclick="nextVideo();" src="img/logo-voyage.png" alt="Une invitation au voyage"></a>
-
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon" id="haut"></span>
         </button>
@@ -47,7 +43,7 @@
         </div>
         <div class="row">
             <div class=" bordure">
-                <img class="" src="img/bordure-video.png">
+                <img class="bordure-video" class="img-fluid" src="img/bordure-video.png">
             </div>
         </div>
         <div class="row">
@@ -64,11 +60,11 @@
             <div class="col-sm-12 decouvrir-btn"><button class="btn btn-primary"><a href="temoignages.html">Découvrez la dernière destination</a></button></div>
             <div class="col-sm-12 img-new">
                 <img class="img-fluid" src="img/fd-temoignages1.png">
-
-
-            </div>
     </section>
+    </div><span id="ancre-galerie"></span>
     <section class="container galerie">
+
+
         <div class="col-sm-12 paddle-container">
             <img class="img-fluid" src="img/couple.png">
         </div>
@@ -76,11 +72,10 @@
             <div class="col-sm-12 watercolor1-container">
                 <img class="img-fluid" src="img/watercolor1.jpg">
             </div>
-            <article class="blog-post-teaser"><span id="ancre-galerie"></span>
+            <article class="blog-post-teaser">
                 <div class="carnets-titre">
                     <P> CARNETS </BR> DE</BR> VOYAGE</P>
                 </div>
-
             </article>
             <article class="blog-post-teaser"></article>
             <div class="row txt-carnets">
@@ -201,7 +196,7 @@
                     </figcaption>
                 </figure>
             </article>
-            <article class="blog-post-teaser">
+            <article class="blog-post-teaser"><span id="ancre-temoignages"></span>
                 <figure>
                     <img src="img/grid-carnets/helsinki.png" alt="">
                     <figcaption>
@@ -211,11 +206,12 @@
             </article>
         </section>
     </section>
+
     <section class="container-fluid ">
         <div class="col-sm-4 homme1-container  ">
             <img class="famille" src="img/voyage-famille.png"> </div>
         <div class="col-sm-4 offset-6 temoignages-titre">
-            <P>TEMOI- </BR>GNA- </BR>GES </P><span id="ancre-temoignages"></span>
+            <P>TEMOI- </BR>GNA- </BR>GES </P>
         </div>
         <div class="col-sm-12 watercolor2-container">
             <img class="img-fluid" src="img/watercolor2.jpg">
@@ -228,7 +224,7 @@
         <div class="row">
             <div class="card-deck">
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="img/grid-carnets/T1.png" alt="Card image cap ">
+                    <img class="card-img-top" src="/img/grid-carnets/T1.png" alt="Card image cap ">
                     <div class="card-body ">
                         <h5 class="card-title ">Pierre</h5>
                         <p class="card-text ">Passionné de cuisine, j'adore dénicher de bonnes adresses pour manger dans les pays que je visite</p>
@@ -247,7 +243,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="img/grid-carnets/T2.png" alt="Card image cap ">
+                    <img class="card-img-top" src="/img/grid-carnets/T2.png" alt="Card image cap ">
                     <div class="card-body ">
                         <h5 class="card-title ">Pierre</h5>
                         <p class="card-text ">Passionné de cuisine, j'adore dénicher de bonnes adresses pour manger dans les pays que je visite</p>
@@ -266,7 +262,7 @@
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="img/grid-carnets/T3.png" alt="Card image cap ">
+                    <img class="card-img-top" src="/img/grid-carnets/T3.png" alt="Card image cap ">
                     <div class="card-body ">
                         <h5 class="card-title ">Pierre</h5>
                         <p class="card-text ">Passionné de cuisine, j'adore dénicher de bonnes adresses pour manger dans les pays que je visite</p>
@@ -282,9 +278,8 @@
                     </div>
                     <div class="card-body ">
                         <a href="# " class="card-link ">En savoir plus...</a>
-                    </div>
+                    </div><span id="contact"></span>
                 </div>
-
             </div>
     </section>
     <section class="formulaire">
@@ -293,7 +288,7 @@
             <div class="col-sm-4">
                 <div class="container">
                     <h4>Contactez-nous</h4>
-                    <span id="contact"></span>
+
                     <form action="">
                         <div class="form-group">
                             <label for="email">Nom:</label>
@@ -323,18 +318,12 @@
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
         <div class="container text-center">
             <small>Copyright &copy; Une idée du Voyage - </small>
-
         </div>
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "></script>
     <script src="js/index.js "></script>
-
-
 </body>
-
-
 
 </html>

@@ -6,6 +6,7 @@ html {
 
 body {
     overflow-X: hidden;
+    align-items: center;
 }
 
 p {
@@ -224,6 +225,7 @@ body {
     left: 0;
     top: 12%;
     animation-name: TranslationX;
+    animation-timing-function: ease-in-out;
     animation-duration: 4s;
 }
 
@@ -233,7 +235,8 @@ body {
     left: 400px;
     top: 1000px;
     animation-name: TranslationX;
-    animation-duration: 4s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
 
 .bordure {

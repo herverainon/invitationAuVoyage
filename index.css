@@ -527,6 +527,39 @@ body {
         overflow: hidden;
         margin-top: 320px;
     }
+    .bordure-video {
+        display: none;
+    }
+    .watercolor1-container {
+        display: none;
+    }
+    .watercolor2-container {
+        display: none;
+    }
+    .paddle-container {
+        display: none;
+    }
+    .famille {
+        width: 350px;
+    }
+    .offset-6 {
+        margin-left: 50px;
+    }
+    .blog-post-teasers {
+        width: 95%;
+    }
+    .dim-video {
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        object-fit: cover;
+    }
+    .video {
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        object-fit: cover;
+    }
 }
 
 
